@@ -5,7 +5,7 @@ function user({user}) {
     <div className='userContainer'>
         <img src={user.picture.large} />
         <p>{`Full Name : ${user.name.first} ${user.name.last}`}</p>
-        <p>{`Full Name : ${user.phone}`}</p>
+        <p>{`Phone : ${user.phone}`}</p>
     </div>
   )
 }
